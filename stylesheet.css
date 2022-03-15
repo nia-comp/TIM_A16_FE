@@ -1,0 +1,92 @@
+header {
+  height: 99spx;
+  width: 100%;
+  background-color:rgba(23, 182, 144, 1);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left : 0;
+  z-index: 10;
+  line-height: 20px;
+}
+
+.logo {
+  width: 40px;
+  margin-top: 5px;
+  padding-left:10px;
+}
+
+.header-logo {
+  color:white;
+  float: left;
+  font-size: 30px;
+  padding: 25px 4px;
+  font-family:arial black;
+}
+
+.header-left {
+  float: left;
+}
+
+li {
+  list-style: none;
+  float: left;
+  padding: 20px 20px;
+  color:white;
+
+}
+
+.header-list{
+  margin-left:400px;
+}
+
+.header-list a {
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-list a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+  font-family:arial black;
+  margin-top:-20px;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a{
+  line-height: 102px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: black;
+  display:block;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 20px;
+  display:none;
+}
+
+input{
+  height:35px;
+  width:250px;
+  margin-top:30px;
+  border:1px solid #dee7ec;
+  margin-top: 8px;
+}
