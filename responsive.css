@@ -1,5 +1,39 @@
-/* Tablet */
-@media (max-width: 1000px)
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .header-list{
+    display:  none;
+  }
+  
+  .header-right{
+    display:  none;
+  }
+  
+  .menu-icon{
+    display:  block;
+  }
+  
+  .input{
+    display:none;
+  }
+  
+}
 
-/* Smartphone */
-@media (max-width: 670px)
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .header-list{
+    display:  none;
+  }
+  
+  .header-right{
+    display:  none;
+  }
+  
+  .menu-icon{
+    display:  block;
+  }
+  
+    .input{
+    display:none;
+  }
+  
+}
