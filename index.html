@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <!--<title> Responsive Footer | CodingLab</title>--->
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins',sans-serif;
+            text-decoration: none;
+        }
+        .link_secondary {
+            margin-bottom: 5px;
+        }
+        footer{
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            background: #17B690;
+        }
+        footer .content{
+            padding: 100px 60px;
+            max-width: 1350px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        footer .title_up{
+            max-width: 100%;
+            margin: auto;
+            font-size : 200px;
+            font-weight : 900;
+            background : #47F7AE;
+            color : #6234F0;
+            text-align : center;
+            line-height: 0.75em;
+        }
+        footer .title_up .up_text {
+            position: relative;
+            bottom: -0.07em;
+            font-family: 'Times New Roman';
+
+        }
+        footer .content p,a{
+            color: #fff;
+        }
+        footer .content .box{
+            width: 50%;
+            transition: all 0.4s ease;
+        }
+        footer .content .right{
+            width: 30%;
+            transition: all 0.4s ease;
+        }
+        footer .content .topic{
+            font-size: 22px;
+            font-weight: 600;
+            color: #000;
+            margin-bottom: 16px;
+
+        }
+        footer .content .subtopic{
+            font-weight: 600;
+            color: #000;
+            margin-bottom: 16px;
+
+        }
+        footer .content p{
+            text-align: justify;
+        }
+        footer .content .lower .topic{
+            margin: 24px 0 5px 0;
+        }
+        footer .content .lower i{
+            padding-right: 16px;
+        }
+        footer .content .middle{
+            padding-left: 80px;
+        }
+        footer .content .middle a{
+            line-height: 32px;
+        }
+        footer .flex_three {
+            display: flex;
+            justify-content : start;
+            align-content : stretch;
+            gap : 40px
+        }
+        footer .content .right input[type="text"]{
+            height: 45px;
+            width: 100%;
+            color: #000;
+            background: #fff;
+            border-radius: 5px;
+            padding-left: 10px;
+            font-size: 17px;
+        }
+        footer .content .right input[type="submit"]{
+            height: 42px;
+            width: 100%;
+            font-size: 18px;
+            color: #fff;
+            background: #1B3062;
+            outline: none;
+            border-radius: 5px;
+            letter-spacing: 1px;
+            cursor: pointer;
+            margin-top: 12px;
+            transition: all 0.3s ease-in-out;
+        }
+        .content .right input[type="submit"]:hover{
+            background: #ffff00;
+            color:  #000;
+            border : 1px solid #fff;
+        }
+        footer .content .media-icons a{
+            font-size: 16px;
+            height: 35px;
+            width: 35px;
+            display: inline-block;
+            text-align: center;
+            line-height: 35px;
+            border-radius: 50%;
+            background : #E1CDF9;
+            margin-bottom : 20px;
+            color : #000;
+            transition: all 0.3s ease;
+        }
+        .content .media-icons a:hover{
+            border-color: #fff;
+        }
+        footer .bottom{
+            width: 100%;
+            text-align: right;
+            color: #d9d9d9;
+            padding: 0 40px 5px 0;
+        }
+        footer .bottom a{
+            color: #eb2f06;
+        }
+        footer a{
+            transition: all 0.3s ease;
+        }
+        footer a:hover{
+            color: #0000ff;
+        }
+        @media (max-width:1100px) {
+            footer .content .middle{
+                padding-left: 50px;
+            }
+        }
+        @media (max-width:950px){
+            footer .content .box{
+                width: 30%;
+            }
+            .content .right{
+                margin-top: 40px;
+            }
+        }
+        @media (max-width:560px){
+            footer{
+                position: relative;
+            }
+            footer .content .box{
+                width: 100%;
+                margin-top: 30px;
+            }
+            footer .content .middle{
+                padding-left: 0;
+            }
+        }
+
+    </style>
+</head>
+<body>
+<footer>
+<!--    <div class="title_up">-->
+<!--     <span class="up_text">-->
+<!--     FOOTER-->
+<!--     </span>-->
+<!--    </div>-->
+    <div class="content">
+        <div class="left box">
+            <div class="upper">
+                <div class="topic">THE SITE OF YOUR CAMPAIGN</div>
+                <div class="flex_three">
+                    <div>
+                        <div class="subtopic">
+                            PRODUCT
+                        </div>
+                        <div class="link_secondary"><a href="#">Features</a></div>
+                        <div class="link_secondary"><a href="#">E-Commerce</a></div>
+                        <div class="link_secondary"><a href="#">Agencies</a></div>
+                    </div>
+                    <div>
+                        <div class="subtopic">
+                            ABOUT
+                        </div>
+                        <div class="link_secondary"><a href="#">Contact</a></div>
+                        <div class="link_secondary"><a href="#">Privacy Policy</a></div>
+                        <div class="link_secondary"><a href="#">Term & Condition</a></div>
+
+                    </div>
+                    <div>
+                        <div class="subtopic">
+                            TOP PRODUCT
+                        </div>
+                        <div class="link_secondary"><a href="#">Shoes A</a></div>
+                        <div class="link_secondary"><a href="#">Shoes B</a></div>
+                        <div class="link_secondary"><a href="#">Shoes C</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="media-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+
+            </div>
+            <div class="topic">Subscribe now</div>
+            <form action="#">
+                <input type="text" placeholder="Enter email address">
+                <input type="submit" name="" value="Send">
+            </form>
+        </div>
+    </div>
+    <div class="bottom">
+        <p>Copyright © 2022 All rights reserved</p>
+    </div>
+</footer>
+
+</body>
+</html>
