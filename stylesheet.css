@@ -14,6 +14,9 @@
       max-width: 95%;
       margin: 0 auto;
   }
+  .bx-store{
+      margin-right: 10px;
+  }
   /*bagian cart*/
   
   /*isi barang sepatu*/
@@ -189,6 +192,7 @@
         right: 0;
         text-align: right;
     }
+    /*kalau mau nambah background gambar*/
     .image img{
         height: 100%;
     }
